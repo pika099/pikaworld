@@ -1,0 +1,90 @@
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>皮卡世界</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            color: rgb(98, 137, 98);
+            font-size: 2em;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .section {
+            flex-basis: 30%;
+            padding: 20px;
+            border: 1px solid #8c7979;
+            margin: 10px;
+        }
+        .footer {
+            background-color: #667e96;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            text-decoration: none;
+            color: #0e1114;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer h2, .footer h3 {
+            margin: 5px 0;
+        }
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+            .section {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>皮卡世界</h1>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>皮卡音乐基地</h2>
+            <a href="https://music.163.com/">网易云音乐</a>
+        </div>
+        <div class="section">
+            <h2>皮卡文学推荐</h2>
+            <p>世界为什么要有图书馆？看看误入体制内的文化的小姐姐从0到1构建理想公共空间。</p>
+        </div>
+        <div class="section">
+            <h3>好物推荐</h3>
+            <p>玩具测评</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+            <h2>自媒体平台</h2>
+            <p>自我介绍：皮卡微博号：<a href="https://www.weibo.com/u/5079822478">@皮皮卡ian</a></p>
+        </div>
+        <div>
+            <h3>友情链接</h3>
+            <p>我的联系方式：<a href="mailto:799959609@qq.com">发送邮件</a></p>
+        </div>
+    </footer>
+</body>
+</html>
